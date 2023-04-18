@@ -15,3 +15,7 @@ for (let i = 0; i < numeri.length; i++) {
         somma += numeri[i];
     }
 }
+
+// stampo la somma degli elementi in posizioni dispari
+
+console.log("la somma è:" + somma);
