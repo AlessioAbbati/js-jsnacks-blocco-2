@@ -8,3 +8,5 @@ for (let i = 0; i < 6; i++) {
         numeriDispari.push(numeroUtente); // Se lo è, lo aggiungiamo all'array
       }
 }  
+
+console.log("Numeri dispari inseriti:", numeriDispari); // Stampiamo l'array dei numeri dispari inseriti
