@@ -1,6 +1,6 @@
 // creo due array, uno per i nomi e uno per i cognomi
 
-let name = [
+let nomi = [
     "Jay",
     "Daisy",
     "Jordan",
@@ -10,7 +10,7 @@ let name = [
     "Dan",
 ]
 
-let surname = [
+let cognomi = [
     "Gatsby",
     "Buchanan",
     "Baker",
@@ -20,6 +20,16 @@ let surname = [
     "Cody",
 ]
 
-// creo un array vuoto per la falsa lista degli invitati
+// creo l'array vuoto per la lista casuale
 
-let falseList = []
+let listaNomi = []
+
+// aggiungo il ciclo per generare i nomi casualmente
+
+for (let i = 0; i < 7; i++) {
+    let nomeCasuale = nomi[Math.floor(Math.random() * nomi.length)];
+    let cognomeCasuale = cognomi[Math.floor(Math.random() * cognomi.length)];
+    invitati.push(nomeCasuale + " " + cognomeCasuale);
+}
+
+console.log(invitati);
