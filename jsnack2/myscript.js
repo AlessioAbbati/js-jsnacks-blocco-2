@@ -19,3 +19,7 @@ let surname = [
     "Wolfsheim",
     "Cody",
 ]
+
+// creo un array vuoto per la falsa lista degli invitati
+
+let falseList = []
