@@ -8,4 +8,10 @@ let somma = 0
 
 // creo il ciclo per leggere i numeri
 
-for (let i = 0; i < numeri.length; i++)
+for (let i = 0; i < numeri.length; i++) {
+    // controllo se i è dispari
+    if (i % 2 !== 0){
+        // aggiungo l'elemento al valore somma
+        somma += numeri[i];
+    }
+}
