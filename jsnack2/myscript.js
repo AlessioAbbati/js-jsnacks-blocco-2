@@ -29,7 +29,7 @@ let listaNomi = []
 for (let i = 0; i < 7; i++) {
     let nomeCasuale = nomi[Math.floor(Math.random() * nomi.length)];
     let cognomeCasuale = cognomi[Math.floor(Math.random() * cognomi.length)];
-    invitati.push(nomeCasuale + " " + cognomeCasuale);
+    listaNomi.push(nomeCasuale + " " + cognomeCasuale);
 }
 
-console.log(invitati);
+console.log(listaNomi);
